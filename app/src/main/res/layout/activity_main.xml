@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/product"
+    >
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Logout" />
+    <Button
+        android:id="@+id/Cart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#b3c0e2"
+        android:text="Cart" />
+    <Button
+        android:id="@+id/wishlist"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#6b7387"
+        android:text="Wishlist" />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:numColumns="2"
+        android:columnWidth="60dp"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:stretchMode="columnWidth"
+        android:background="#EAEDED"/>
+</LinearLayout>
+
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "75805812111",
+    "firebase_url": "https://almari-2.firebaseio.com",
+    "project_id": "almari-2",
+    "storage_bucket": "almari-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75805812111:android:6c36632c353b40cdffd7fa",
+        "android_client_info": {
+          "package_name": "com.example.almari2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75805812111-d6t8o3oh96ij7bor4n6kracdnua1qrsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRc_a7CsQdZnTMoHBAYvnQJr5ypp0SRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75805812111-d6t8o3oh96ij7bor4n6kracdnua1qrsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
